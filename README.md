@@ -1,6 +1,8 @@
 ## BinarApps Recruitment Task
 
 ```
+install deps:
+    yarn
 run:
     yarn dev
 
