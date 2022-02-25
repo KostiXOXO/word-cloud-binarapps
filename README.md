@@ -3,6 +3,7 @@
 ```
 install deps:
     yarn
+    
 run:
     yarn dev
 
