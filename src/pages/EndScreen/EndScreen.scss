@@ -1,0 +1,34 @@
+@use '/src/styles/colors' as *;
+
+.endGameContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 3rem;
+
+	font-size: 1.2rem;
+
+	p {
+		padding: 0;
+		margin: 0;
+	}
+
+	.result {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		gap: 1rem;
+
+		p:last-of-type {
+			font-weight: 700;
+			color: $clr-text-info;
+		}
+	}
+
+	.tryAgain {
+		a {
+			text-decoration: none;
+			color: $clr-text-link;
+		}
+	}
+}

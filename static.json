@@ -1,0 +1,8 @@
+{
+	"root": "./dist",
+	"clean_urls": false,
+	"routes": {
+		"/mockApi.json": "./mockApi.json",
+		"/**": "index.html"
+	}
+}
